@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="人材派遣会社の公式サイトです。一般派遣、紹介予定派遣、短期派遣など、幅広いサービスを提供しています。">
+    <meta name="keywords" content="人材派遣, 派遣, 求人, 仕事, 短期派遣, 紹介予定派遣">
+    <meta name="author" content="人材派遣会社">
+    <title>人材派遣会社 | 求人と派遣サービス</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">人材派遣会社</div>
+        <nav>
+            <ul>
+                <li><a href="#about">会社概要</a></li>
+                <li><a href="#services">サービス一覧</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>会社概要</h1>
+        <p>私たちは、企業と人材を繋ぐ橋渡しをするプロフェッショナルです。</p>
+    </section>
+
+    <section id="services">
+        <h1>サービス一覧</h1>
+        <div class="service">
+            <h2>一般派遣</h2>
+            <p>即戦力となる人材をご提供します。</p>
+        </div>
+        <div class="service">
+            <h2>紹介予定派遣</h2>
+            <p>正社員を目指す方にぴったりのサービスです。</p>
+        </div>
+        <div class="service">
+            <h2>短期派遣</h2>
+            <p>期間限定の人材を迅速にご用意します。</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>お問い合わせ</h1>
+        <form id="contactForm">
+            <label for="name">お名前:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">送信</button>
+        </form>
+        <p id="formMessage" class="hidden">お問い合わせありがとうございます！</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 人材派遣会社. All Rights Reserved.</p>
+    </footer>
+    <script src="/Users/fujiwarayouki/Desktop/homepage/script.js"></script>
+</body>
+</html>
